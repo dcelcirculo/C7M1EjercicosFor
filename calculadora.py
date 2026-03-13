@@ -23,8 +23,12 @@ def multiplicacion(a, b):
     return multiplicacion
 
 def division(a, b):
-    division = a / b
-    return division
+    
+    #if b != 0:
+        division = a / b
+        return division
+    #else:
+    #return division
 
 def div_entera(a, b):
     div_entera = a // b
